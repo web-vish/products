@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
+import './ProductList.scss';
 
 export default function ProductList() {
     const [products, setProducts] = useState([])
@@ -11,21 +12,21 @@ export default function ProductList() {
     }, [])
 
     return (
-        <section>
+        <section className="productCntr">
             <ul>
                 {products.map((product) => {
                     return (
                         <li key={product.id}>
-                            <div className='image-container'>
+                            <div className='imageContainer'>
                                 <img src={product.thumbnail} />
                             </div>
-                            <div className='product-main'>
+                            <div className='productMain'>
                                 <h2>
                                     {product.title}
                                 </h2>
                                 <p>{product.description}</p>
                             </div>
-                            <div className='product-footer'>
+                            <div className='productFooter'>
                                 <button>Buy Now</button>
                             </div>
                         </li>
