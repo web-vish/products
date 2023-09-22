@@ -37,7 +37,7 @@ module.exports = {
     },
     plugins: [
         new ModuleFederationPlugin({
-            name: "ProductComponent",
+            name: "ProductList",
             filename: "remoteEntry.js",
             exposes: {
                 "./ProductList": "./src/components/ProductList/ProductList"

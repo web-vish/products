@@ -6,12 +6,12 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-var ProductComponent;
+var ProductList;
 /******/ (function() { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "webpack/container/entry/ProductComponent":
+/***/ "webpack/container/entry/ProductList":
 /*!***********************!*\
   !*** container entry ***!
   \***********************/
@@ -449,7 +449,7 @@ eval("var moduleMap = {\n\t\"./ProductList\": function() {\n\t\treturn Promise.a
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"ProductComponent": 0
+/******/ 			"ProductList": 0
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.j = function(chunkId, promises) {
@@ -543,8 +543,8 @@ eval("var moduleMap = {\n\t\"./ProductList\": function() {\n\t\treturn Promise.a
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__("webpack/container/entry/ProductComponent");
-/******/ 	ProductComponent = __webpack_exports__;
+/******/ 	var __webpack_exports__ = __webpack_require__("webpack/container/entry/ProductList");
+/******/ 	ProductList = __webpack_exports__;
 /******/ 	
 /******/ })()
 ;
